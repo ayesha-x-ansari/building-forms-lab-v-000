@@ -14,3 +14,8 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
+
+export const renderer = { render };
+
+store.dispatch({ type: '@@init' });
